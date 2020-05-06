@@ -1,0 +1,17 @@
+﻿<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>01.html</title>
+	<script language="javascript">
+	function Phishing (){
+		window.opener.location="http://jashliao.eu/wordpress/"
+		document.getElementById('ShowBox').innerHTML='你被釣魚了';
+	}
+	</script>	
+  </head>
+  
+  <body onload="Phishing()">
+	<span id="ShowBox"></span>
+  </body>
+  
+</html>
